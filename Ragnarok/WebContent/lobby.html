@@ -1,0 +1,97 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Ragnarok</title>
+<link rel="normalize" href="normalize.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="lobby-back-game">
+	<header>
+		<div class="logo-img">
+			<img src="images/viking.png" alt="Viking Logo">
+		</div>
+		<!-- <div class="background-image-container lobby-back-game"> -->
+
+	</header>
+
+	<div class="container">
+
+		<button id="btn-chat" onclick="hidel()">CHAT</button>
+
+		<div class="chat-box">
+			<h1 id="name-box">Chat</h1>
+			<div id="holder">
+
+				<textarea class="chat" id="history" style="overflow-y: scroll"
+					readonly>
+
+                    </textarea>
+
+				<div id="messageForm">
+					<input type="text" id="txtMessage" placeholder="Type..." />
+					<button type="submit" id="btnSend">Send</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="players-box">
+			<h1 id="name-box">Players</h1>
+			<div id="player-grid">
+				<span> <img class="player-picture"
+					src="images/character/blackVikings.png" />
+					<p></p>
+				</span> <span> <img class="player-picture"
+					src="images/character/bearVikings.png" />
+					<p></p>
+				</span> <span> <img class="player-picture"
+					src="images/character/rousseVikings.png" />
+					<p></p>
+				</span> <span> <img class="player-picture"
+					src="images/character/rouxVikings.png" />
+					<p></p>
+				</span> <span> <img class="player-picture"
+					src="images/character/blondVikings.png" />
+					<p></p>
+				</span> <span> <img class="player-picture"
+					src="images/character/casqueVikings.png" />
+					<p></p>
+				</span> <span> <img class="player-picture"
+					src="images/character/hair.png" />
+					<p></p>
+				</span> <span> <img class="player-picture"
+					src="images/character/moustacheVikings.png" />
+					<p></p>
+				</span> <span> <img class="player-picture"
+					src="images/character/muscleVikings.png" />
+					<p></p>
+				</span> <span> <img class="player-picture"
+					src="images/character/princesseVikings.png" />
+					<p></p>
+				</span>
+			</div>
+
+		</div>
+
+		<div class="options-link-box">
+			<h1 id="name-box">Options</h1>
+
+			<h1 id="coming">Coming soon...</h1>
+
+
+			<div class="link-area" action="#">
+				<div class="wrapper">
+
+					<div class="button-copy button-start">
+						<button href="game.html" id="start-btn" title="Button push"
+							class="button btnPush btnStart">Start</button>
+					</div>
+				</div>
+			</div>
+		</div>
+</body>
+</html>
+

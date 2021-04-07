@@ -1,0 +1,149 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Ragnarok</title>
+<link rel="normalize" href="normalize.css">
+<link rel="stylesheet" href="style.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+
+<body class="game-back-game">
+	<header>
+		<div class="logo-img">
+			<img src="images/viking.png" alt="Viking Logo">
+		</div>
+		<!-- <div class="background-image-container game-back-game "> -->
+	</header>
+
+	<div class="container-game">
+
+		<button id="btn-chat-game">Chat</button>
+
+		<div class="chat-part">
+			<div id="name-box">Chat-room</div>
+			<div id="holder">
+				<textarea class="chat" id="history" style="overflow-y: scroll"
+					readonly></textarea>
+
+				<div id="messageForm">
+					<input type="text" id="txtMessage" placeholder="Type..." />
+					<button type="submit" id="btnSend">Send</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="container-game-part">
+
+			<h1 id="round-box">Round</h1>
+
+			<div class="game-part">
+
+				<div id="game-player-grid">
+					<span id="premier "> <input type="checkbox" id="cb1"
+						value="1" /> <label for="cb1">
+							<h1 id="role"></h1> <img class="game-player-picture"
+							src="images/character/blackVikings.png" />
+							<p></p>
+					</label>
+					</span> <span> <input type="checkbox" id="cb2" value="2" /> <label
+						for="cb2">
+							<h1 id="role"></h1> <img class="game-player-picture"
+							src="images/character/bearVikings.png" />
+							<p></p>
+					</label>
+					</span> <span> <input type="checkbox" id="cb3" value="3" /> <label
+						for="cb3">
+							<h1 id="role"></h1> <img class="game-player-picture"
+							src="images/character/rousseVikings.png" />
+							<p></p>
+					</label>
+					</span> <span> <input type="checkbox" id="cb4" value="4" /> <label
+						for="cb4">
+							<h1 id="role"></h1> <img class="game-player-picture"
+							src="images/character/rouxVikings.png" />
+							<p></p>
+					</label>
+					</span> <span> <input type="checkbox" id="cb5" value="5" /> <label
+						for="cb5">
+							<h1 id="role"></h1> <img class="game-player-picture"
+							src="images/character/blondVikings.png" />
+							<p></p>
+					</label>
+					</span> <span> <input type="checkbox" id="cb6" value="6" /> <label
+						for="cb6">
+							<h1 id="role"></h1> <img class="game-player-picture"
+							src="images/character/casqueVikings.png" />
+							<p></p>
+					</label>
+					</span> <span> <input type="checkbox" id="cb7" value="7" /> <label
+						for="cb7">
+							<h1 id="role"></h1> <img class="game-player-picture"
+							src="images/character/hair.png" />
+							<p></p>
+					</label>
+					</span> <span> <input type="checkbox" id="cb8" value="8" /> <label
+						for="cb8">
+							<h1 id="role"></h1> <img class="game-player-picture"
+							src="images/character/moustacheVikings.png" />
+							<p></p>
+					</label>
+					</span> <span> <input type="checkbox" id="cb9" value="9" /> <label
+						for="cb9">
+							<h1 id="role"></h1> <img class="game-player-picture"
+							src="images/character/muscleVikings.png" />
+							<p></p>
+					</label>
+					</span> <span> <input type="checkbox" id="cb10" value="10" /> <label
+						for="cb10">
+							<h1 id="role"></h1> <img class="game-player-picture"
+							src="images/character/princesseVikings.png" />
+							<p></p>
+					</label>
+					</span>
+				</div>
+
+			</div>
+
+		</div>
+
+
+		<div id="validation-part">
+
+			<span> Etes-vous d'accord avec le choix effectué ? </span>
+
+			<button id="btn-oui" class="golden-btn">Oui</button>
+			<button id="btn-non" class="golden-btn">Non</button>
+
+		</div>
+
+		<div id="score-part">
+			<span>Epreuves :</span> <span>.</span> <span>.</span> <span>.</span>
+			<span>.</span> <span>.</span>
+		</div>
+
+		<button id="btn-valider-choix" class="golden-btn">Valider le
+			choix</button>
+
+		<!-- <div  id="score">
+                <span>Epreuves :</span>
+                <span>&#10005;</span>
+                <span>&#10003;</span>
+                <span>.</span>
+                <span>.</span>
+                <span>.</span>
+            </div> -->
+
+
+
+	</div>
+
+
+
+</body>
+<!--     <script src="game.js"></script> -->
+</html>
